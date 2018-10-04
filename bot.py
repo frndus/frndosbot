@@ -19,9 +19,6 @@ token = config["token"]
 prefix = config["command_prefix"]
 
 
-#TOKEN = "NDk3MTk5OTk2NDI5NDAyMTEy.Dpbtng.fljZm4t1XatYnI826dnl5_G6vAE"
-#PREFIX = "frndos "
-
 bot = commands.Bot(command_prefix=prefix)
 client = discord.Client()
 
